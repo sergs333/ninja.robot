@@ -16,6 +16,7 @@ void loop() {
     // put your main code here, to run repeatedly:
     ledPin = analogRead(NinjaEye); // Читать значение датчика света (фоторезистора)
    Serial.println(ledPin);
+   /// bbbbb
    // Если значение датчика меньше или равно 16,
    if (ledPin>16) {
      Serial.println("Ехать вперед");
