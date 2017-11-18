@@ -10,6 +10,7 @@ void setup() {
     pinMode(ledPin,OUTPUT);   // Установить пин светодиода в режим вывода информации
     pinMode(D5,OUTPUT);
     Serial.begin(9600);
+    // test
 }
 
 void loop() {
